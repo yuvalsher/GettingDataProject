@@ -9,6 +9,8 @@ download.file(fileUrl,destfile="Dataset.zip",method="curl")
 unzip("Dataset.zip")
 
 # Load the data files from the test directory
+# Note: This script was written on Windows. For other OSs, you may need to change the paths 
+# used when loading data files, and replace "\\" with "/".
 subject_test <- read.table("UCI HAR Dataset\\test\\subject_test.txt")
 X_test <- read.table("UCI HAR Dataset\\test\\X_test.txt")
 Y_test <- read.table("UCI HAR Dataset\\test\\Y_test.txt")

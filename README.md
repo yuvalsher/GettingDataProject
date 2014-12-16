@@ -9,6 +9,8 @@ The algorithm used supports new measurments and activity types to be added
 in the future, in that they are not hardcoded into the script.
   
 R Libraries used: dplyer  
+Note: This script was written on Windows. For other OSs, you may need to change the paths 
+used when loading data files, and replace "\\" with "/".
   
 ### 1. Preparations: Download the data files, and load into R.  
 1.1  Download the dataset ZIP file from:  
